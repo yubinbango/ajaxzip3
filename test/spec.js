@@ -51,7 +51,7 @@ describe('AjaxZip3.zip2addr', function() {
       });
     });
 
-    it('都道府県 と 市町村区 と 以降の住所に分ける場合', function() {
+    it('都道府県 と 市町村区 と 町域 と 以降の住所に分ける場合', function() {
       element(by.name('yubin31')).sendKeys(100)
       .then(function(){
         element(by.name('yubin32')).sendKeys(8950)
@@ -112,7 +112,7 @@ describe('AjaxZip3.zip2addr', function() {
       });
     });
 
-    it('都道府県 と 市町村区 と 以降の住所に分ける場合', function() {
+    it('都道府県 と 市町村区 と 町域 と 以降の住所に分ける場合', function() {
       element(by.name('yubin71')).sendKeys(1008950)
       .then(function(){
         browser.driver.sleep(1000)
