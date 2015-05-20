@@ -1,0 +1,30 @@
+{
+  "name": "ajaxzip3",
+  "version": "0.0.6",
+  "description": "",
+  "main": "ajaxzip3.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yubinbango/ajaxzip3.git"
+  },
+  "author": "Teruyuki Kobayashi koba1014@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yubinbango/ajaxzip3/issues"
+  },
+  "homepage": "https://github.com/yubinbango/ajaxzip3",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-angular-protractor": "0.0.2",
+    "gulp-exit": "0.0.2",
+    "gulp-webserver": "^0.9.0",
+    "run-sequence": "^1.1.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
