@@ -25,6 +25,7 @@ module YubinBango {
       }
     }
     apply(elms, addr){
+      if(!addr.extended) { addr.extended = '' }
       let cursor = elms['locality'];
       if (elms['region'].type == 'select-one' || elms['region'].type == 'select-multiple') {
         // 都道府県プルダウンの場合
