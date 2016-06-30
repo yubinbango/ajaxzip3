@@ -1,4 +1,4 @@
-/// <reference path="./yubinbango-core/yubinbango-core.ts"/>
+/// <reference path="./node_modules/yubinbango-core/yubinbango-core.ts"/>
 module YubinBango {
   export class OldFunction {
     prev = '';
